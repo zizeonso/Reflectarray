@@ -21,13 +21,12 @@ For a reflectarray illuminated by a feed antenna, each element must compensate f
 1. **Spatial Phase Delay (SPD)** caused by spherical wave propagation from the feed  
 2. **Progressive Phase (PP)** required to collimate or steer the reflected beam  
 
-The total phase required at each reflectarray element is given by
+The total phase required at each reflectarray element is given by  
 
-\[
-\psi_i = k \left( R_i - \sin\theta \left( x_i \cos\phi + y_i \sin\phi \right) \right) + \psi_0
-\]
+$\psi_i = k \left( R_i - \sin\theta \left( x_i \cos\phi + y_i \sin\phi \right) \right) + \psi_0$
 
 where:
+
 - $k = 2\pi / \lambda$ is the wavenumber  
 - $R_i$ is the distance from the feed to the $i$-th element  
 - $(x_i, y_i)$ are the element coordinates on the aperture  
